@@ -1,0 +1,42 @@
+body {
+	font-family: system-ui, sans-serif;
+	color: #001732;
+	background-color: #d8eee8;
+}
+
+input[type="number"] {
+  font-size: 24px;
+  width: 40px;
+}
+
+button {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.boxes {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: #cbe0dd;
+  background-image: url('./images/question-mark.svg');
+  background-size: contain;
+  cursor: pointer;
+}
+
+.duck {
+  background-image: url('./images/duck.svg');
+}
+
+.water {
+  background-image: url('./images/water.svg');
+}
+
+.message {
+  font-weight: bold;
+}

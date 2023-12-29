@@ -1,0 +1,66 @@
+body {
+	font-family: system-ui, sans-serif;
+	color: #ffffff;
+	background-color: #264653;
+}
+
+h1 {
+  color: #e9c46a;
+}
+
+button {
+  font-size: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+  cursor: pointer;
+}
+
+.container {
+  /* 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  */
+}
+
+.box {
+  height: 240px;
+  width: 240px;
+  margin-bottom: 24px;
+  background-color: white;
+  background-image: url("./images/guess.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.ducks {
+  display: flex;
+  gap: 24px
+}
+
+.duck {
+  /*
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  */
+  /* 
+  height: 120px;
+  width: 120px;
+  background-color: #cbe0dd;
+   */
+  font-size: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  cursor: pointer;
+}
+
+.duck-0 {
+  background-image: url("./images/duck-dies.png"); 
+}
+
+.duck-1 {
+  background-image: url("./images/duck-lives.png"); 
+}
+
