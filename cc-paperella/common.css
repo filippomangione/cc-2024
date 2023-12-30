@@ -24,25 +24,25 @@ button {
   height: 100px;
   width: 100px;
   background-color: #cbe0dd;
-  background-image: url('../images/question-mark.svg');
+  background-image: url('./images/question-mark.svg');
   background-size: contain;
   cursor: pointer;
 }
 
 .water {
-  background-image: url('../images/water.svg');
+  background-image: url('./images/water.svg');
 }
 
 .fire {
-  background-image: url('../images/fire.svg');
+  background-image: url('./images/fire.svg');
 }
 
 .duck.fire {
-  background-image: url('../images/chicken.svg');
+  background-image: url('./images/chicken.svg');
 }
 
 .duck {
-  background-image: url('../images/duck.svg');
+  background-image: url('./images/duck.svg');
 }
 
 
