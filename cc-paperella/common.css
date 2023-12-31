@@ -37,8 +37,16 @@ button {
   background-image: url('./images/fire.svg');
 }
 
+.crocodile {
+  background-image: url('./images/crocodile.svg');
+}
+
 .duck.fire {
-  background-image: url('./images/chicken.svg');
+  background-image: url('./images/roasted.svg');
+}
+
+.duck.crocodile {
+  background-image: url('./images/dead.svg');
 }
 
 .duck {
