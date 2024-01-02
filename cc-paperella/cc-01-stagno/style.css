@@ -1,0 +1,19 @@
+body {
+  font-family: system-ui, sans-serif;
+  color: #001732;
+  background-color: #d8eee8;
+}
+
+/* 
+ * 1 - Crea un classe con le seguenti caratteristiche:
+ * - altezza 180px e larghezza 600px
+ * - colore di sfondo #cbe0dd
+ * - immagine di sfondo "water.png"
+ */
+
+ .stagno {
+  width: 600px;
+  height: 180px;
+  background-color: #cbe0dd;
+  background-image: url('./images/water.png');
+}

@@ -24,9 +24,12 @@ button {
   height: 100px;
   width: 100px;
   background-color: #cbe0dd;
-  background-image: url('./images/question-mark.svg');
   background-size: contain;
   cursor: pointer;
+}
+
+.guess {
+  background-image: url('./images/question-mark.svg');
 }
 
 .water {
@@ -52,7 +55,6 @@ button {
 .duck {
   background-image: url('./images/duck.svg');
 }
-
 
 .message {
   font-weight: bold;
